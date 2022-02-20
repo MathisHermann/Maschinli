@@ -5,7 +5,7 @@
             <div class="mt-8">
                 <div class="flex flex-row justify-between items-center max-w-6xl mx-auto mt-8 px-4 sm:px-6 lg:px-8">
                     <h2 class="text-lg leading-6 font-medium text-gray-900">
-                        Alle Maschinen
+                        Alle Wartungsarbeiten
                     </h2>
                     <a href="{{ route('create-maintenance-item') }}"
                        class="ml-3 relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
