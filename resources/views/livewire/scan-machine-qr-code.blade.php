@@ -42,8 +42,10 @@
         }
 
         function setResult(result) {
-            console.log('decoded qr code:', result)
             stopVideo()
+            let id = JSON.parse(result).id
+            let serviceEndpointURL = window.location.protocol + "//" + window.location.host;
+            window.location = serviceEndpointURL + "/machines/" + id
         }
 
         document.addEventListener('alpine:init', () => {
